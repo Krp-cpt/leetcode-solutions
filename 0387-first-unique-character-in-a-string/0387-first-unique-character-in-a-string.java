@@ -6,9 +6,9 @@ class Solution {
        {
            map.put(ch[i],map.getOrDefault(ch[i],0)+1); 
        }
-       if(map.isEmpty()){
-        return -1;
-       }
+    //    if(map.isEmpty()){
+    //     return -1;
+    //    }
       for(int i=0;i<ch.length;i++)
       {
         if(map.get(ch[i])==1)
